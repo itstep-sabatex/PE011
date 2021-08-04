@@ -20,7 +20,7 @@ namespace AdapterDemo
             yield return "bare.txt";
             yield return "tt.json";
         }
-        public IEnumerable<string> GetDevices(string path)
+        public IEnumerable<string> GetDevices()
         {
             yield return "A:";
             yield return "C:";

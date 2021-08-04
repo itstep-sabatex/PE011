@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdapterDemo
 {
-    public abstract class Target
+    public abstract class Target //FileSystem
     {
         public virtual DateTime CurrentDate()=> DateTime.Now;
         public abstract string[] GetCatalogs(string path);
