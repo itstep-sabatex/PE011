@@ -25,6 +25,9 @@ namespace AdapterDemo
             Console.WriteLine($"Windows File System:");
             Target target= new WindowsAdapter();
             ShowFileSystem(target);
+            target = new LinuxAdapter();
+            Console.WriteLine($"Linux File System:");
+            ShowFileSystem(target);
 
         }
     }

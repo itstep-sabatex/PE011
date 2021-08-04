@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDemo", "AdapterDemo\AdapterDemo.csproj", "{09FED6C3-8CB5-41D3-8700-E4BD171C64C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeDemo", "BridgeDemo\BridgeDemo.csproj", "{8BBACE7A-E418-44F9-AB9A-0EC659BCB121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeImplementor", "BridgeImplementor\BridgeImplementor.csproj", "{6CC55896-44A4-4B39-BE94-747CC4A6FC5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{09FED6C3-8CB5-41D3-8700-E4BD171C64C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09FED6C3-8CB5-41D3-8700-E4BD171C64C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09FED6C3-8CB5-41D3-8700-E4BD171C64C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBACE7A-E418-44F9-AB9A-0EC659BCB121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBACE7A-E418-44F9-AB9A-0EC659BCB121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBACE7A-E418-44F9-AB9A-0EC659BCB121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBACE7A-E418-44F9-AB9A-0EC659BCB121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC55896-44A4-4B39-BE94-747CC4A6FC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC55896-44A4-4B39-BE94-747CC4A6FC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC55896-44A4-4B39-BE94-747CC4A6FC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC55896-44A4-4B39-BE94-747CC4A6FC5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
